@@ -24,6 +24,7 @@ Join our **Discord** for help and community discussions:
 
 ## 🙌 Thanks
 Huge thanks to our development team:  
-- @welovepaperapi  
+[@welovepaperapi](https://github.com/welovepaperapi), [@gamermarshd](https://github.com/gamermarshd), [@silas9k](https://github.com/silas9k)
+
 
 Also, big thanks to **all contributors**!

@@ -12,14 +12,13 @@ Join Polixer today!
 
 ---
 
-## 🎮 How to join
-Check out our [video tutorial](#) for step-by-step instructions.
+(Video)
 
 ---
 
 ## 💬 Questions?
 Join our **Discord** for help and community discussions:  
-[Discord Link](#)
+[Discord Link](https://discord.polixer.de)
 
 ---
 

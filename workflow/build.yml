@@ -1,0 +1,50 @@
+name: Build JAR
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Build with Maven
+        run: mvn -B package
+
+      # Artefakt hochlade
+      - name: Upload JAR
+        uses: actions/upload-artifact@v3
+        with:
+          name: game-jar
+          path: target/*.jar
+
+      # Nur für main → Full Release
+      - name: Create Release
+        if: github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: Full-${{ github.run_number }}
+          name: Full Build ${{ github.run_number }}
+          files: target/*.jar
+
+      # Nur für develop → Dev Release
+      - name: Create Pre-Release
+        if: github.ref == 'refs/heads/develop'
+        uses: softprops/action-gh-release@v1
+        with:
+          prerelease: true
+          tag_name: Dev-${{ github.run_number }}
+          name: Dev Build ${{ github.run_number }}
+          files: target/*.jar

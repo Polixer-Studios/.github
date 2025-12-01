@@ -1,11 +1,11 @@
 # Polixer-Studios
 
-Polixer is a indi Game Studio founded in 2025.  
+Polixer is a indie Game Studio founded in 2025.  
 Here you can find all of our **open source projects**.
 
 ---
 
-## PolixerRPG is currently in Development
+## PolixerRPG is currently in early Development
 Join Polixer today!  
 **Current Version:** 0.0.1  
 **Website address:** `polixer.net`

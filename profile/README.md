@@ -1,30 +1,26 @@
-# Polixer.de – Minecraft RPG Server
+# Polixer-Studios
 
-Polixer.de is a Minecraft server based on **RPG*.  
+Polixer is a indi Game Studio founded in 2025.  
 Here you can find all of our **open source projects**.
 
 ---
 
-## Polixer is currently in Development
+## PolixerRPG is currently in Development
 Join Polixer today!  
-**Supported Versions:** Java & Bedrock (1.21.x)  
-**Server address:** `polixer.de`
-
----
-
-(Video)
+**Current Version:** 0.0.1  
+**Website address:** `polixer.net`
 
 ---
 
 ## 💬 Questions?
 Join our **Discord** for help and community discussions:  
-[Discord Link](https://discord.polixer.de)
+[Discord Link](https://discord.polixer.net)
 
 ---
 
 ## 🙌 Thanks
 Huge thanks to our development team:  
-[@welovepaperapi](https://github.com/welovepaperapi), [@gamermarshd](https://github.com/gamermarshd), [@silas9k](https://github.com/silas9k)
+[@welovepaperapi](https://github.com/welovepaperapi)
 
 
 Also, big thanks to **all contributors**!
